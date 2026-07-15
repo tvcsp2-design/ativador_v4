@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="URL do Painel (cPanel)"
+        android:textSize="18sp" android:textStyle="bold"/>
+
+    <EditText android:id="@+id/etUrl"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="https://seudominio.com/painel"
+        android:inputType="textUri"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:textSize="12sp" android:textColor="#666666"
+        android:text="Cole aqui a URL da pasta onde ficam api.php e validate.php"/>
+
+    <Button android:id="@+id/btnSave"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" android:text="Salvar"
+        android:background="#2196F3" android:textColor="#FFFFFF"/>
+
+    <Button android:id="@+id/btnReset"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="Resetar ativação"
+        android:background="#EEEEEE"/>
+</LinearLayout>
